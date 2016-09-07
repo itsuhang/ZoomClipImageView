@@ -10,7 +10,7 @@
         android:scaleType="centerCrop"
        />
        ```
-       ![](https://github.com/lightofrain/ZoomClipImageView/raw/master/image/Screenshot_1.png)
+       ![image](https://github.com/lightofrain/ZoomClipImageView/raw/master/image/Screenshot_1.png)
        通过getClipBitmap()方法获取截取的Bitmap
        
        通过setSize(int size);设置截选框大小
