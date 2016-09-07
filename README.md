@@ -1,6 +1,7 @@
 # ZoomClipImageView
 可缩放截图的ImageView(类似微信)
-直接在布局中使用
+直接在布局中使用</br>
+```java
  <com.suhang.zoomclipimageview.views.ZoomClipImageView
         android:id="@+id/ziv"
         android:layout_width="match_parent"
@@ -8,7 +9,8 @@
         android:src="@drawable/dog"
         android:scaleType="centerCrop"
        />
-       
+       ```
+       ![](https://github.com/lightofrain/ZoomClipImageView/raw/master/image/Screenshot_1.png)
        通过getClipBitmap()方法获取截取的Bitmap
        
        通过setSize(int size);设置截选框大小
